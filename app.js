@@ -15,7 +15,7 @@ const { result } = require('lodash');
 //Instance of express app
 const app = express()
 
-const blogRoutes = require('./Routes/blogRoutes')
+const blogRoutes = require('./apis/Routes/blogRoutes')
 
 //Mongodb connection
 const dbUrl = 'mongodb+srv://moshoodmohammed:managermuhkid@cluster1.e4kvies.mongodb.net/node-tuit?retryWrites=true&w=majority'
